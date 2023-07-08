@@ -18,7 +18,7 @@ function slider() {
     }
     slideImg.src = images[i];
     i++;
-    setTimeout('slider()', 8000);
+    setTimeout('slider()', 3000);
 }
 
 function changeBackgroundColor(color){

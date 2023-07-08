@@ -108,8 +108,8 @@ nav p {
 
 #about_img{
     object-fit: cover;
-    height: 100%;
-    width: 50%;
+    height: 120%;
+    width: 60%;
     background-size: cover;
     border-radius: 100%;
 }
@@ -206,7 +206,7 @@ nav p {
     padding-top: 5rem;
     display: flex;
     padding: 1rem;
-    background-color: #03202d;
+    background-color: white;
     height: 50vh;
 }
 
@@ -217,7 +217,7 @@ nav p {
 }
 
 .res_text p{
-    color: white;
+    color: black;
     display: flex;
     font-size: 1.1rem;
     justify-content: center;
@@ -238,27 +238,28 @@ nav p {
 }
 
 .res_text a {
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     padding-top: 1rem;
 }
 /* footer page */
 #footer {
-    height: 10vh;
+    height: 40vh;
     background-color: #03202d;
     width: 100%;
 }
 
-.socials{
+
+
+.row {
     display: flex;
-    background-size: contain;
-    align-items: center;
     justify-content: center;
+
 }
 
-.socials_icons{
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    background-size: cover;
+.row p {
+    text-align: center;
 }
 
 .odds{
