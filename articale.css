@@ -39,7 +39,12 @@ nav  a{
 }
 
 .article p{
-    font-size: 1.8rem;
+    font-size: 1.2rem;
+
+}
+
+.article2 p{
+    font-size: 1.2rem;
 
 }
 
@@ -50,6 +55,28 @@ nav  a{
 }
 
 #heading{
+    position:absolute;
     text-align: center;
     font-size: 3rem;
+    top: 5%;
+}
+
+.hed_con p{
+    position: relative;
+    top: 3%;
+}
+
+
+
+.article{
+    position: relative;
+    margin-top: 5%;  
+}
+
+h2{
+    font-family: 'Chela One', cursive;
+}
+
+body{
+    font-family: 'Chela One', cursive;
 }
