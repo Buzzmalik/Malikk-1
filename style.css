@@ -16,12 +16,18 @@ a {
     position: relative;
     overflow: hidden;
 }
+/*navigation menu*/
+.hammenu li {
+    display: inline-block;
+}
+  
 
 .sildeshow{
     width: 100%;
     height: 100vh;
     position: absolute;
 }
+
 
 .overlay {
     position: absolute;
@@ -192,6 +198,7 @@ nav p {
 }
 /* Reserach Page  */
 #Research {
+    padding-top: 5%;
     height: 100vh;
 }
 
@@ -246,10 +253,12 @@ nav p {
 /* footer page */
 #footer {
     height: 40vh;
-    background-color: #03202d;
+    background-color: rgb(255, 255, 255);
     width: 100%;
 }
-
+ .Foot{
+    height: 40vh;
+ }
 
 
 .row {
@@ -280,9 +289,9 @@ nav p {
 }
 .head1{
     position: absolute;
-    right: 52%;
+    right: 54%;
     text-align: left;
-    margin-bottom: 30%;
+    margin-bottom: 35%;
     
 }
 .head1 p{
@@ -302,6 +311,7 @@ nav p {
 .generalGoal{
     text-align: center;
 }
+
 .generalText{
     padding-top: 7%;
     position: absolute;
@@ -329,7 +339,7 @@ nav p {
     position: absolute;
     left: 45%;
     margin-right: 5%;
-    top: 52%;
+    top: 47%;
 }
 .goal1Pic{
     position: absolute;
@@ -338,14 +348,14 @@ nav p {
 }
 .goal1Heading{
     position: absolute;
-    top: 45%;
+    top: 40%;
     right: 30%;
 }
 .goal3Text{
     position: absolute;
     left: 45%;
     margin-right: 5%;
-    top: 85%;
+    top: 82%;
 }
 .goal3Pic{
     position: absolute;
@@ -354,6 +364,267 @@ nav p {
 }
 .goal3Heading{
     position: absolute;
-    top: 78%;
+    top: 75%;
     right: 30%;
 }
+
+@media (max-width: 1200px) {
+    .index {
+        margin: 0;
+    }
+    
+}
+
+
+
+
+
+.home-testimonial {
+    background-color:  #03202d;
+    height: 380px;
+    padding-bottom: 35%;
+}
+
+.home-testimonial-bottom {
+    background-color: white;
+  
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: relative;
+    height: 130px;
+    top: 190px;
+}
+
+.home-testimonial h3 {
+    color:white;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.home-testimonial h2 {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.testimonial-inner {
+    position: relative;
+    top: -174px;
+   
+}
+
+.testimonial-pos {
+    position: relative;
+    top: 24px;
+}
+
+.testimonial-inner .tour-desc {
+    border-radius: 15px;
+    padding: 40px;
+}
+
+.color-grey-3 {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2;
+}
+
+.testimonial-inner img.tm-people {
+    width: 150px;
+    height: 150px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    max-width: none
+}
+
+.link-name {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 14px;
+    color: #6c83a2;
+}
+
+.link-position {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 12px;
+    color: #6c83a2
+}
+
+.tour-desc{
+    background-color: whitesmoke;
+    text-align: center;
+    
+}
+.tour-item{
+    padding: 5%;
+}
+
+.bluecolor{
+    color: blue;
+    
+}
+
+.comments {
+    margin-top: 10%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#reply-title{
+    font-weight:bolder;
+    margin: 1% 10%;
+}
+
+.comment-notes{
+    margin: 1% 10%;
+}
+
+.required{
+    
+    color: #8c1515;
+    margin-left: 4%;
+}
+
+.asterisk_color{
+    color: #8c1515;
+}
+
+.comment-form-comment{
+    margin: 1% 10%;
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    line-height: 1.625;
+    color: #001a57;
+}
+
+textarea{
+    margin: 0% 10%;
+}
+
+.comment-form-author{
+    margin: 1% 10%;
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    line-height: 1.625;
+    color: #001a57;
+}
+
+.comment-form-email{
+    margin: 1% 10%;
+    font-weight: 700;
+    font-family: Montserrat,sans-serif;
+    line-height: 1.625;
+    color: #001a57;
+}
+
+.form-submit{
+    margin: 1% 10%
+}
+
+.comment-respond textarea {
+    height: 150px;
+    width: 40%;
+}
+
+
+.comment-form .submit {
+    background-color: #001a57;
+    color: #fff;
+
+}
+
+.btn, .comment-form .submit, .gform_button, .tribe-events-button {
+    border-radius: 0;
+    padding: 0.3rem 1rem;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color .3s ease;
+}
+
+.socials{
+    margin: 5%;
+    max-height: 20vh;
+}
+
+
+
+.Contact{
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    margin-top: 2%;
+
+}
+
+.Connect{
+    position: relative;
+    left: 400px;
+    margin-top: 2%;
+}
+
+address{
+    display: block;
+    position: relative;
+    right: 0;
+    margin-top: 2%;
+}
+
+.list-inline>li {
+    display: inline-block;
+    margin: -7%;
+}
+
+.CHeader{
+    position: relative;
+    right: 7%;
+}
+
+.navbar{
+    background-color: #030f15;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1;
+}
+
+
+@media (max-width: 900px) {
+    
+.sildeshow{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.slideshow img{
+    object-fit: cover;
+}
+.about_container{
+    margin-top: 5%;
+    flex-direction: column;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+}
+.about_text{
+    align-items: center;
+    width: 100%;
+    padding: 0rem 5rem;
+    position: relative;
+    text-align: left;
+    padding-top: 0;
+    margin-top: 2rem;
+
+    
+}
+body{
+   width: 100%;
+}
+
+  
+  }
