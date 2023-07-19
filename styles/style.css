@@ -59,6 +59,10 @@ a {
     .overlay .home_box * {
         transform: scale(.9);
     }
+
+    .overlay .home_box p {
+        font-size: 1.52rem;
+    }
 }
 
 nav{
