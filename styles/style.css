@@ -187,7 +187,7 @@ nav .menu-btn {
 
 #about_img{
     object-fit: cover;
-    height: 400PX;
+    height: 400px;
     width: 400px;
     background-size: cover;
     border-radius: 100%;
@@ -257,6 +257,13 @@ iframe {
         padding: .75rem;
         text-align: center;
     }
+
+    #about_img{
+        height: 270px;
+        width: 270px;
+    }
+
+    
 
 }
 
