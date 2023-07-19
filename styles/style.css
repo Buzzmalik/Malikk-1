@@ -51,7 +51,7 @@ a {
 
     .overlay .home_box {
         position: static;
-        width: 80vw;
+        width: 95vw;
         height: max-content;
         padding: 2rem 0;
     }
@@ -263,6 +263,9 @@ iframe {
         width: 270px;
     }
 
+    iframe {
+        width: 100% !important;
+    }
     
 
 }

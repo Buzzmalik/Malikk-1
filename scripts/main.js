@@ -44,10 +44,10 @@ function scrollMe(self, direction="left") {
     
     if(direction=="left") {
         console.log("left");
-        scrollbox.scrollBy(-100, 0);
+        scrollbox.scrollBy(-400, 0);
     }
     else {
         console.log("right");
-        scrollbox.scrollBy(100, 0);
+        scrollbox.scrollBy(400, 0);
     }
 }
