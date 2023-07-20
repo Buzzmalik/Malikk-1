@@ -357,7 +357,7 @@ iframe {
 }
 
 .res {
-    padding-top: 5rem;
+    padding-top: inherit;
     display: flex;
     /* padding: 1rem; */
     background-color: white;
