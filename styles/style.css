@@ -376,7 +376,7 @@ iframe {
 }
 
 .scroll-container .btn {
-    --size: 60px;
+    --size: 10px;
     height: var(--size);
     width: var(--size);
     font-size: 200%;
@@ -386,7 +386,6 @@ iframe {
     transform: translateY(-50%);
 
     background: white;
-    box-shadow: 0 0 5px #a4a4a448;
 }
 
 .scroll-container .btn.right {
