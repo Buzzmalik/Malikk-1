@@ -1,12 +1,11 @@
 let slideImg = document.getElementById('slide');
 let images = new Array(
-    "Cocoa.jpg",
-    "cocoa5.jpg",
+    "cocoa.jpg",
+    "Cocoa5.jpg",
     "cocoa2.jpg",
     "cocoa3.jpg",
     "Cocoa4.png",
-    "Cocoa1.jpg",
-    
+    "cocoa1.jpg",
 );
 
 let len = images.length;
@@ -32,6 +31,14 @@ function makeChange(){
 
 let menu_btn = document.querySelector('.menu-btn');
 let navmenu  = document.querySelector('.navmenu');
+
+let nav_links = document.querySelectorAll('.hammenu li');
+
+nav_links.forEach(nav_link => {
+    nav_link.addEventListener('click', () => {
+        navmenu.classList.toggle('active');
+    });
+})
 
 menu_btn.addEventListener('click', () => {
     navmenu.classList.toggle('active');
